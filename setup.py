@@ -9,7 +9,7 @@ setup(
     author_email='ioannis_vm@berkeley.edu',
     entry_points={
         'console_scripts': [
-            'simpleworktime=src.main:run_timer'
+            'simpleworktime=src.main:main'
         ]
     },
     python_requires='>=3.6',
